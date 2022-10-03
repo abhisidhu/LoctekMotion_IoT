@@ -8,8 +8,8 @@ substitutions:
 esphome:
   name: ${name}
   comment: ${device_name}
-  platform: esp32 # TODO Change to your platform
-  board: esp32dev # TODO Change to your board
+  platform: ESP8266 # TODO Change to your platform
+  board: nodemcuv2 # TODO Change to your board
   includes:
     - desk_height_sensor.h
     - desk_keypad.h
